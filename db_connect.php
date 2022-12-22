@@ -2,9 +2,9 @@
 	# ----------- variabili Globali --------
 	//ini_set('display_errors','On'); error_reporting(E_ALL); // set errori php
 
-	$host = "80.211.47.247";
-	$dbUser = "dellamateral";
-	$dbPwd  = "D_ellamateral_21";
+	$host = "10.1.1.4";
+	$dbUser = "root";
+	$dbPwd  = "D_ellamateral_0";
 	$dbName	  = "ledlamps";
 
 	$con=mysqli_connect($host, $dbUser, $dbPwd, $dbName);
