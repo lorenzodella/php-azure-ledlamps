@@ -2,7 +2,7 @@
 	# ----------- variabili Globali --------
 	//ini_set('display_errors','On'); error_reporting(E_ALL); // set errori php
 
-	$host = "10.1.1.4";
+	$host = "lorenzodellamatera.northeurope.cloudapp.azure.com";
 	$dbUser = "root";
 	$dbPwd  = "D_ellamateral_0";
 	$dbName	  = "ledlamps";
