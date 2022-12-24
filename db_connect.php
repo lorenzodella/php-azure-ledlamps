@@ -2,8 +2,8 @@
 	# ----------- variabili Globali --------
 	//ini_set('display_errors','On'); error_reporting(E_ALL); // set errori php
 
-	$host = "20.223.202.42";
-	$dbUser = "root";
+	$host = "mysql-lorenzodellamatera.mysql.database.azure.com";
+	$dbUser = "lorenzodellamatera";
 	$dbPwd  = "D_ellamateral_0";
 	$dbName	  = "ledlamps";
 
