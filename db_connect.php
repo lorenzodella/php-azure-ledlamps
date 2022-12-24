@@ -7,8 +7,9 @@
 	$dbPwd  = "D_ellamateral_0";
 	$dbName	  = "ledlamps";
 
-	mysqli_ssl_set($conn,NULL,NULL, "/var/www/html/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
-	$con=mysqli_connect($host, $dbUser, $dbPwd, $dbName);
+	$con = mysqli_init();
+	mysqli_ssl_set($con,NULL,NULL, "/var/www/html/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
+	mysqli_real_connect($host, $dbUser, $dbPwd, $dbName, 3306, MYSQLI_CLIENT_SSL);
     if(!$con)
     {
         die("Connection falied".mysqli_connect_error());
