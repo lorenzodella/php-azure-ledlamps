@@ -16,5 +16,5 @@
     {
         die("Connection falied".mysqli_connect_error());
     }
-	echo "Connected successfully";
+	//echo "Connected successfully";
 ?>

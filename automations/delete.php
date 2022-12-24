@@ -26,7 +26,7 @@
     $data = mysqli_fetch_array($ris)["result"];
     if($data=="1"){
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://80.211.47.247:8000/$idLamp/automations/automator?operation=stop");
+        curl_setopt($ch, CURLOPT_URL, "http://lorenzodellamatera.northeurope.cloudapp.azure.com:8000/$idLamp/automations/automator?operation=stop");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         $output = curl_exec($ch);
         //echo $output;
