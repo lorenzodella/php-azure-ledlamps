@@ -7,7 +7,7 @@
 	$dbPwd  = "D_ellamateral_0";
 	$dbName	  = "ledlamps";
 
-	echo file_get_contents( "/ssl/DigiCertGlobalRootCA.crt.pem" );
+	echo file_get_contents( "/ssl/file.txt" );
 
 	/*$con = mysqli_init();
 	mysqli_ssl_set($con,NULL,NULL, "/ssl/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
