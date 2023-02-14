@@ -8,8 +8,6 @@
 	$dbName	  = "ledlamps";
 
 	//echo file_get_contents( "ssl/file.txt" );
-	echo __DIR__;
-	echo $_SERVER['DOCUMENT_ROOT'];
 
 	$con = mysqli_init();
 	mysqli_ssl_set($con,NULL,NULL, $_SERVER['DOCUMENT_ROOT']."/ssl/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
